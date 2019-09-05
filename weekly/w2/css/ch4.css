@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #B9997D;
+  font-family: sans-serif;
+  margin: 0 10%;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+  border-bottom: 3px solid #4C7DAA;
+}
+
+h2 {
+  color:#6A090A;
+}
+
+p {
+  color: #684A2E;
+}
