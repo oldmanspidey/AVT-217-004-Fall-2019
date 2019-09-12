@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #605F51;
+}
+
+#wrapper {
+  background-color: #E4DADB;
+  width: 90%;
+}
+
+header {
+  background-color: #B2C6A0;
+}
+
+
+
+#logo {
+  background-color: #778F20;
+  width: 100px;
+    float: left;
+}
+
+nav {
+  background-color: #833035;
+  width: 325px;
+  /* float: left; */
+}
+
+article {
+  background-color: #5A7B7E;
+  margin-left: 30px;
+}
+
+footer {
+  background-color: #774F50;
+}
