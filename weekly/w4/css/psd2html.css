@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("../img/Layer_1.png");
+	background-size: 1024px 1024px, contain;
+	max-height: 1024px;
+	max-width: 1024px;
+	color: #f4f1d0;
+	font-family: "Myriad Pro";
+	
+}
+
+background-image {
+	max-height: 1024px;
+	max-width: 1024px;
+	
+}
+
+p {
+	color: #f4f1d0;
+	font-family: "Myriad Pro";
+	
+}
+
+#innerbody {
+	margin-top: 69px;
+	margin-left: 209px;
+	
+}
+
+#quote {
+	margin-left: 77px;
+	
+}
