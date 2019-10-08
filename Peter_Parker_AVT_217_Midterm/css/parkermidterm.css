@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------- CSS RESET BEGINS ----------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------- CSS RESET ENDS ----------*/
+
+body {
+	max-width: 1020px;
+	min-width: 975px;
+}
+
+header{
+	display: block;
+	position: relative;
+	background-color: #BDBDBD;
+	min-height: 168px;
+}
+
+#sitetitle {
+	font-family: Helvetica;
+	color: #00009f;
+	font-size: 60px;
+	font-weight: 700;
+	max-width: 400px;
+	text-align: left;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+nav {
+	font-family: 'Gill Sans';
+	color: #00009f;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: right;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+	margin-left: 28px;
+}
+
+h3 {
+	font-family: 'Gill Sans';
+	color: #cc6600;
+	font-size: 48px;
+	font-weight: 400;
+	margin-left: 30px;
+	margin-top: 20px;
+	display: block;
+}
+
+.columncontainer {
+	padding-top: 20px;
+	margin-left: 100px;
+	max-width: 900px;
+}
+
+.column {
+	float: left;
+	width: 20%;
+	min-width: 204px;
+	font-family: Helvetica;
+	font-weight: 700;
+	padding: 10px;
+}
+
+h4 {
+	color: #333333;
+	font-size: 30px;
+}
+
+h5 {
+	color: #333333;
+	font-size: 18px;
+}
+
+.price {
+	color: #993300;
+	font-size: 20px;
+	padding-bottom: 1em;
+}
+
+.note {
+	color: #996633;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+footer {
+	font-family: Helvetica;
+	color: #020000;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+hr {
+	color: #414141;
+	width: 950px;
+	height: 3px;
+	margin-left: 30px;
+	display: block;
+}
+
