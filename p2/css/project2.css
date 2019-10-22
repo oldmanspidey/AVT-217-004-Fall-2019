@@ -1,6 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
 #navigation {
 	float: right;
 	position: sticky;
@@ -13,7 +20,7 @@
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: top;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	min-height: 608px;
 	min-width: 1080px;
@@ -22,8 +29,8 @@
 
 #sitetitle {
 	position: absolute;
-	vertical-align: baseline;
-	margin-top: 450px;
+	vertical-align:bottom;
+	/*margin-top: 450px;*/
 }
 
 #menu {
@@ -32,7 +39,7 @@
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: top;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	min-height: 720px;
 	min-width: 1080px;
@@ -42,11 +49,59 @@
 	margin-top: 95px;
 	margin-left: 20px;
 	vertical-align: top;
+	float: left;
 }
 
 #menuitems{
 	margin-top: 20px;
 	margin-left: 20px;
+	margin-bottom: 20px;
+	vertical-align: top;
+}
+
+#location {
+	background-image: url("../img/mapbgwithfilter.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	height: 100vh;
+	width: 100%;
+	min-height: 608px;
+	min-width: 1080px;
+	max-height: 100%;
+}
+
+#locationtitle {
+	margin-top: 35px;
+	margin-left: 35px;
+}
+
+#locationitems {
+	margin-left: 40px;
+	margin-bottom: 60px;
+}
+
+#backtotop {
+	background-image: url("../img/chalkboardbg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+	min-height: 350px;
+	min-width: 1080px;
+	max-height: 100%;	
+}
+
+#backtotopbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 150px;
+}
+;
 	margin-bottom: 20px;
 	vertical-align: top;
 }
