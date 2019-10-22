@@ -4,8 +4,13 @@
 <meta charset="utf-8">
 <title>Ray's Hell Burger</title>
 <link rel="stylesheet" href="css/project2.css">
+<link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
 <style type="text/css">  
-	body { margin:0; }
+	body {
+		margin:0;
+		font-family: Kalam;
+		color: #fff;
+	}
 	#menutab {
 		display: block;
 	}
@@ -18,12 +23,19 @@
 	#contactustab {
 		display: block;
 	}
+	#menutext {
+		clear: left;
+	}
+	#locationtext {
+		
+	}
 
 </style>
 </head>
 
 <body>
 	<div id="navigation">
+		<a href="#home"><img src="img/home.png" id="hometab"></a>
 		<a href="#menu"><img src="img/menu.png" id="menutab"></a>
 		<a href="#location"><img src="img/location.png" id="locationtab"></a>
 		<img src="img/career.png" id="careertab">
@@ -36,12 +48,51 @@
 	
 	<div id="menu">
 		<img src="img/menu_title.png" id="menutitle">
-		<img src="img/menu_items.png" id="menuitems">
+		<!--<img src="img/menu_items.png" id="menuitems">-->
+		<div id="menutext">
+		Burgers
+			Hamburger $5.29
+			Cheeseburger $5.89
+			Bacon Burger $6.09
+			Bacon Cheeseburger $6.59
+			Little Hamburger $3.7
+			Little Cheeseburger $4.39
+			Little Bacon Burger $4.69
+			Little Bacon Cheeseburger $5.19
+
+		Dogs
+			Kosher Style Hot Dog $3.59
+			Cheese Dog $4.19
+			Bacon Dog $4.49
+			Bacon Cheese Dog $4.99
+
+		Sandwiches
+			Veggie Sandwich $2.69
+			Cheese Veggie Sandwich $3.29
+			Grilled Cheese $3.29
+			Note: Veggie Sandwiches do not contain veggie burger patties.
+
+		Fries
+			Sweet Potato Fries $2.25
+			Skin on Fries $2.00
+			Our fries are cooked in pure, no cholesterol, and tasty peanut oil!
+
+		Complimentary Toppings:
+			Lettuce, Tomato, Grilled Onions, Raw Red Onions, Pickle, Charred Jalapeños, Cognac & Sherry Sautéed Mushrooms, Roasted Garlic, Fiery Pirañha Sauce, BBQ Sauce, Mayo.
+		</div>
 	</div>
 	
 	<div id="location">
 		<img src="img/location_title.png" id="locationtitle">
-		<img src="img/location_items.png" id="locationitems">
+		<!--<img src="img/location_items.png" id="locationitems">-->
+		<div id="locationtext">
+		Location
+			1234 Wilson Boulevard, Arlington, VA
+		Hours of Operation
+			Daily From 11:00 am Until 10:00 pm
+		Reservation
+			For reservations call 01 223 367 4800
+		</div>
 	</div>
 	
 	<div id="backtotop">
