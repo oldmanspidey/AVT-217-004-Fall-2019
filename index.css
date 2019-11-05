@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Catamaran;
+	font-size: 100%;
+	line-height: 1.75em;
+	color: #1B133C;
+	background-color: #F9E6BE;
+}
+
+h1, h2, h3, h4, dt {
+	font-family: Acme;
+	color: #372E5D;
+}
+
+a:link {
+	text-decoration: none;
+	color: #437865;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #205140;
+}
+
+a:hover {
+	color: #7FA799;
+	font-weight: bolder;
+}
+
+a:focus {
+	color: #7FA799;
+}
+a:active {
+	color: #7FA799;
+}
+
+.column {
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+
