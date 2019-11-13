@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  padding-top: 0;
+  font-family: monaco, monospace;
+  font-size: 16px;
+  background: #093C75;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Designer/Organizer Buttons and Text */
+
+/* Trapezoid 1 */
+
+#shapecont {
+ width: 100vw;
+ height: 100vh;
+}
+
+#pgram1 {
+  width: 100vw;
+  height: 100vh;
+  transform: skew(32deg);
+  background: #FF9A00;
+  float: left;
+  position: relative;
+  left: 21.5vw;
+  margin-left: -75vw;
+  text-align: left;
+  z-index: 2;
+  transition: transform 0.3s linear;
+}
+#text1 {
+  font-size: 3em;
+  position: absolute;
+  bottom: 10vh;
+  right: 70vh;
+  transform: skew(-32deg);
+  transition: transform 0.3s linear;
+}
+a:link > #pgram1, a:visited > #pgram1 {
+	color: #093C75;
+}
+a:hover #pgram1, a:focus #pgram1, a:active #pgram1 {
+  transform: scaleX(1.1) skew(29.5deg);
+  z-index: 3;
+}
+a:focus #pgram1, a:active #pgram1 {
+  color: #0D5FB9;
+}
+a:hover #pgram1 > #text1, a:focus #pgram1 > #text1, a:active #pgram1 > #text1 {
+  transform: scaleY(1.1) skew(-32deg);
+}
+
+/* Trapezoid 2 */
+
+#pgram2 {
+  width: 100vw;
+  height: 100vh;
+  transform: skew(32deg);
+  background: #933AD4;
+  float: right;
+  position: relative;
+  right: 21.5vw;
+  margin-right: -75vw;
+  text-align: right;
+  z-index: 2;
+  transition: transform 0.3s linear;
+}
+#text2 {
+  font-size: 3em;
+  position: absolute;
+  top: 10vh;
+  left: 67vh;
+  transform: skew(-32deg);
+  transition: transform 0.3s linear;
+}
+a:link > #pgram2, a:visited > #pgram2 {
+	color: #093C75;
+}
+a:hover #pgram2, a:focus #pgram2, a:active #pgram2 {
+  transform: scaleX(1.1) skew(29.5deg);
+  z-index: 3;
+}
+a:focus #pgram2, a:active #pgram2 {
+  color: #0D5FB9;
+}
+a:hover #pgram2 > #text2, a:focus #pgram2 > #text2, a:active #pgram2 > #text2 {
+  transform: scaleY(1.1) skew(-32deg);
+}
+
+/* Name Label and Text */
+
+#pgram3 {
+  width: 20vw;
+  height: 10vh;
+  transform: skew(32deg);
+  background: #FFF800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -6vh;
+  margin-left: -10vw;
+  text-align: center;
+  z-index: 5;
+  transition: transform 0.25s linear;
+}
+#text3 {
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.55em;
+  margin-left: -3.25em;
+  transform: skew(-32deg);
+  transition: transform 0.25s linear;
+}
+a:link > #pgram3, a:visited > #pgram3 {
+	color: #093C75;
+}
+a:hover #pgram3, a:focus #pgram3, a:active #pgram3 {
+  transform: scale(1.2) skew(32deg);
+}
+a:focus #pgram3, a:active #pgram3 {
+  color: #0D5FB9;
+}
+a:hover #pgram3 > #text3, a:focus #pgram3 > #text3, a:active #pgram3 > #text3 {
+  transform: scale(1.2) skew(-32deg);
+}
