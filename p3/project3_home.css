@@ -3,7 +3,7 @@
 
 body {
   padding-top: 0;
-  font-family: monaco, monospace;
+  font-family: Lexend Deca;
   font-size: 16px;
   background: #093C75;
   background-size: cover;
@@ -13,9 +13,9 @@ body {
   overflow: hidden;
 }
 
-/* Designer/Organizer Buttons and Text */
+/* -------------------- Designer/Organizer Buttons and Text -------------------- */
 
-/* Trapezoid 1 */
+/* ---------- Trapezoid 1 ---------- */
 
 #shapecont {
  width: 100vw;
@@ -43,21 +43,40 @@ body {
   transform: skew(-32deg);
   transition: transform 0.3s linear;
 }
+
+/* Text Color */
 a:link > #pgram1, a:visited > #pgram1 {
 	color: #093C75;
 }
-a:hover #pgram1, a:focus #pgram1, a:active #pgram1 {
+
+/* Shape when hovered over */
+a:hover #pgram1 {
   transform: scaleX(1.1) skew(29.5deg);
   z-index: 3;
 }
+
+/* Shape when clicked on */
+a:focus #pgram1, a:active #pgram1 {
+  transform: scaleX(1.2) skew(28.5deg);
+  z-index: 3;
+}
+
+/* Text color when clicked on */
 a:focus #pgram1, a:active #pgram1 {
   color: #0D5FB9;
 }
-a:hover #pgram1 > #text1, a:focus #pgram1 > #text1, a:active #pgram1 > #text1 {
+
+/* Text when hovered over */
+a:hover #pgram1 > #text1 {
   transform: scaleY(1.1) skew(-32deg);
 }
 
-/* Trapezoid 2 */
+/* Text when clicked on */
+a:focus #pgram1 > #text1, a:active #pgram1 > #text1 {
+  transform: scaleY(1.2) skew(-32deg) translate(20vh, 0);
+}
+
+/* ---------- Trapezoid 2 ---------- */
 
 #pgram2 {
   width: 100vw;
@@ -80,21 +99,40 @@ a:hover #pgram1 > #text1, a:focus #pgram1 > #text1, a:active #pgram1 > #text1 {
   transform: skew(-32deg);
   transition: transform 0.3s linear;
 }
+
+/* Text Color */
 a:link > #pgram2, a:visited > #pgram2 {
 	color: #093C75;
 }
-a:hover #pgram2, a:focus #pgram2, a:active #pgram2 {
+
+/* Shape when hovered over */
+a:hover #pgram2 {
   transform: scaleX(1.1) skew(29.5deg);
   z-index: 3;
 }
+
+/* Shape when clicked on */
+a:focus #pgram2, a:active #pgram2 {
+  transform: scaleX(1.2) skew(28.85deg);
+  z-index: 3;
+}
+
+/* Text color when clicked on */
 a:focus #pgram2, a:active #pgram2 {
   color: #0D5FB9;
 }
-a:hover #pgram2 > #text2, a:focus #pgram2 > #text2, a:active #pgram2 > #text2 {
+
+/* Text when hovered over */
+a:hover #pgram2 > #text2 {
   transform: scaleY(1.1) skew(-32deg);
 }
 
-/* Name Label and Text */
+/* Text when clicked on */
+a:focus #pgram2 > #text2, a:active #pgram2 > #text2 {
+  transform: scaleY(1.2) skew(-32deg) translate(-20vw, 0);
+}
+
+/* ---------- Name Label and Text ---------- */
 
 #pgram3 {
   width: 20vw;
@@ -115,20 +153,38 @@ a:hover #pgram2 > #text2, a:focus #pgram2 > #text2, a:active #pgram2 > #text2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -0.55em;
-  margin-left: -3.25em;
+  margin-top: -0.65em;
+  margin-left: -3em;
   transform: skew(-32deg);
   transition: transform 0.25s linear;
 }
+
+/* Text Color */
 a:link > #pgram3, a:visited > #pgram3 {
-	color: #093C75;
+  color: #093C75;
 }
-a:hover #pgram3, a:focus #pgram3, a:active #pgram3 {
+
+/* Shape when hovered over */
+a:hover #pgram3 {
   transform: scale(1.2) skew(32deg);
 }
+
+/* Shape when clicked on */
+a:focus #pgram3, a:active #pgram3 {
+  transform: scale(1.4) skew(32deg)
+}
+
+/* Text color when clicked on */
 a:focus #pgram3, a:active #pgram3 {
   color: #0D5FB9;
 }
-a:hover #pgram3 > #text3, a:focus #pgram3 > #text3, a:active #pgram3 > #text3 {
+
+/* Text when hovered over */
+a:hover #pgram3 > #text3 {
+  transform: scale(1.1) skew(-32deg);
+}
+
+/* Text when clicked on */
+a:focus #pgram3 > #text3, a:active #pgram3 > #text3 {
   transform: scale(1.2) skew(-32deg);
 }
