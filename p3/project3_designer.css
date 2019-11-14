@@ -29,6 +29,8 @@ a {
   position: absolute;
   bottom: 10vh;
   right: 10vh;
+  transition: transform 0.2s linear;
+  transform: translate(10vh, 0);
 }
 
 #back {
@@ -36,17 +38,22 @@ a {
 	position: absolute;
 	bottom: 5vh;
 	right: 10vh;
+	transition: transform 0.07s linear;
 }
 
-#back > a:link, #back > a:visited {
+/* Text Color */
+#pair a:link, #pair a:visited {
   color: #0D5FB9;
 }
 
-#back a:focus, #back a:active {
+/* Title and back button when hovered over*/
+a:hover #back {
+	transform: scale(1.2);
+}
+
+/* Text color when shape clicked on */
+#pair a:focus, #pair a:active {
   /*color: #093C75;*/
   color: #0D5FB9;
 }
 
-#back a:hover + #text {
-	transform: scale(1.1);
-}
