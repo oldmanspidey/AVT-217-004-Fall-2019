@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  padding-top: 0;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  background: #FF9A00;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+#textcont {
+  height: 100vh;
+  width: 100vw;
+  text-align: right;
+}
+
+#text1 {
+  font-size: 3em;
+  color: #093C75;
+  position: absolute;
+  bottom: 10vh;
+  right: 10vh;
+}
+
+#back {
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 5vh;
+	right: 10vh;
+}
+
+#back > a:link, #back > a:visited {
+  color: #0D5FB9;
+}
+
+#back a:focus, #back a:active {
+  /*color: #093C75;*/
+  color: #0D5FB9;
+}
+
+#back a:hover + #text {
+	transform: scale(1.1);
+}
