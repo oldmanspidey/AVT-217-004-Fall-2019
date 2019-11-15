@@ -61,7 +61,7 @@ a:focus #pgram1, a:active #pgram1 {
   z-index: 3;
 }
 
-/* Text color when shape clicked on */
+/* Text color when shape is clicked on */
 a:focus #pgram1, a:active #pgram1 {
   /*color: #0D5FB9;*/
   color: #093C75;
@@ -118,7 +118,7 @@ a:focus #pgram2, a:active #pgram2 {
   z-index: 3;
 }
 
-/* Text color when shape clicked on */
+/* Text color when shape is clicked on */
 a:focus #pgram2, a:active #pgram2 {
   /*color: #0D5FB9;*/
   color: #093C75;
@@ -176,7 +176,7 @@ a:focus #pgram3, a:active #pgram3 {
   transform: scale(1.4) skew(32deg)
 }
 
-/* Text color when shape clicked on */
+/* Text color when shape is clicked on */
 a:focus #pgram3, a:active #pgram3 {
   /*color: #0D5FB9;*/
   color: #093C75;
