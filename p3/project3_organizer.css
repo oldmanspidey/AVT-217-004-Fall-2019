@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  padding-top: 0;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  background: #933AD4;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* just removing text deorations real quick */
+a {
+  text-decoration: none;
+}
+
+/* Container of all text on the page */
+#textcont {
+  height: 100vh;
+  width: 100vw;
+  text-align: right;
+}
+
+#organizer_intro {
+  font-size: 1em;
+  color: #093C75;
+  text-align: justify;
+  position: absolute;
+  top: 20vh;
+  left: 70vw;
+  width: 20vw;
+  opacity: 1.0;
+  transition: transform 0.53s ease-out;
+  transform: translate(-65vw, 0);
+  transform: opacity(0.1);
+}
+
+/* Text of designer page title */
+#text1 {
+  font-size: 3em;
+  color: #093C75;
+  position: absolute;
+  top: 10vh;
+  left: 60vw;
+  transition: transform 0.5s ease-out;
+  transform: translate(-55vw, 0);
+}
+
+/* Text of clickable home page link */
+#back {
+	font-size: 1.5em;
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+	transition: transform 0.07s linear;
+}
+
+/* Text Color */
+a:link #back, a:visited #back {
+  color: #0D5FB9;
+}
+
+/* Title and back button when hovered over*/
+a:hover #back {
+	transform: scale(1.2);
+}
+
+/* Text color when shape clicked on */
+a:focus #back, a:active #back {
+  /*color: #093C75;*/
+  color: #0D5FB9;
+}
