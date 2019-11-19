@@ -96,7 +96,7 @@ a:focus #pgram1 > #text1, a:active #pgram1 > #text1 {
   font-size: 3em;
   position: absolute;
   top: 10vh;
-  left: 67vh;
+  left: 40vw;
   transform: skew(-32deg);
   transition: transform 0.3s linear;
 }
