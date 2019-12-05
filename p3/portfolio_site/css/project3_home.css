@@ -39,7 +39,7 @@ body {
   font-size: 3em;
   position: absolute;
   bottom: 10vh;
-  right: 70vh;
+  right: 35vw;
   /*left: 100vh;*/
   transform: skew(-32deg);
   transition: transform 0.3s linear;
@@ -199,13 +199,12 @@ a:focus #pgram3 > #nametitle, a:active #pgram3 > #nametitle {
 @media screen and (max-width: 1400px) {
 
 #designertitle {
-  font-size: 2em;
-  right: 65vh;
+  /*font-size: 2em;*/
 }
 
 
 #organizertitle {
-  font-size: 2em;
+  /*font-size: 2em;*/
 }
 
 #nametitle {
@@ -219,13 +218,12 @@ a:focus #pgram3 > #nametitle, a:active #pgram3 > #nametitle {
 @media screen and (max-width: 1125px) {
 
 #designertitle {
-  font-size: 2em;
-  right: 50vh;
+  font-size: 2.75em;
 }
 
 
 #organizertitle {
-  font-size: 2em;
+  font-size: 2.75em;
 }
 
 #nametitle {
@@ -239,13 +237,12 @@ a:focus #pgram3 > #nametitle, a:active #pgram3 > #nametitle {
 @media screen and (max-width: 900px) {
 
 #designertitle {
-  font-size: 1.75em;
-  right: 40vh;
+  font-size: 2.50em;
 }
 
 
 #organizertitle {
-  font-size: 1.75em;
+  font-size: 2.50em;
 }
 
 #nametitle {
@@ -260,13 +257,12 @@ a:focus #pgram3 > #nametitle, a:active #pgram3 > #nametitle {
 @media screen and (max-width: 700px) {
 
 #designertitle {
-  font-size: 1.75em;
-  right: 25vh;
+  font-size: 2.25em;
 }
 
 
 #organizertitle {
-  font-size: 1.75em;
+  font-size: 2.25em;
 }
 
 #nametitle {
@@ -277,7 +273,7 @@ a:focus #pgram3 > #nametitle, a:active #pgram3 > #nametitle {
 
 }
 
-/*----------------------------700 pixel breakpoint----------------------------*/
+/*----------------------------575 pixel breakpoint----------------------------*/
 
 @media screen and (max-width: 575px) {
 
