@@ -25,6 +25,7 @@ a {
   text-align: right;
 }
 
+/* Text of organizer description */
 #organizer_intro {
   font-size: 1em;
   color: #093C75;
@@ -39,7 +40,7 @@ a {
   transform: opacity(0.1);
 }
 
-/* Text of designer page title */
+/* Text of organizer page title */
 #text1 {
   font-size: 3em;
   color: #093C75;
@@ -48,6 +49,22 @@ a {
   left: 60vw;
   transition: transform 0.5s ease-out;
   transform: translate(-55vw, 0);
+}
+
+/* Text of organizer experience */
+
+#organizer_experience {
+  width: 60vw;
+  right: 8vw;
+  top: 20vh;
+  color: #093C75;
+  text-align: justify;
+  position: absolute;
+}
+
+#organizer_experience>h4 {
+  text-align: center;
+  font-size: 1.5em;
 }
 
 /* Text of clickable home page link */
