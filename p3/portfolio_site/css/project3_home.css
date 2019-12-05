@@ -35,7 +35,7 @@ body {
   z-index: 2;
   transition: transform 0.3s linear;
 }
-#text1 {
+#designertitle {
   font-size: 3em;
   position: absolute;
   bottom: 10vh;
@@ -68,12 +68,12 @@ a:focus #pgram1, a:active #pgram1 {
 }
 
 /* Text when hovered over */
-a:hover #pgram1 > #text1 {
+a:hover #pgram1 > #designertitle {
   transform: scaleY(1.1) skew(-32deg);
 }
 
 /* Text when clicked on */
-a:focus #pgram1 > #text1, a:active #pgram1 > #text1 {
+a:focus #pgram1 > #designertitle, a:active #pgram1 > #designertitle {
   transform: scaleY(1.2) skew(-32deg) translate(20vh, 0);
 }
 
@@ -92,11 +92,11 @@ a:focus #pgram1 > #text1, a:active #pgram1 > #text1 {
   z-index: 2;
   transition: transform 0.3s linear;
 }
-#text2 {
+#organizertitle {
   font-size: 3em;
   position: absolute;
   top: 10vh;
-  left: 40vw;
+  left: 35vw;
   transform: skew(-32deg);
   transition: transform 0.3s linear;
 }
@@ -125,12 +125,12 @@ a:focus #pgram2, a:active #pgram2 {
 }
 
 /* Text when hovered over */
-a:hover #pgram2 > #text2 {
+a:hover #pgram2 > #organizertitle {
   transform: scaleY(1.1) skew(-32deg);
 }
 
 /* Text when clicked on */
-a:focus #pgram2 > #text2, a:active #pgram2 > #text2 {
+a:focus #pgram2 > #organizertitle, a:active #pgram2 > #organizertitle {
   transform: scaleY(1.2) skew(-32deg) translate(-20vw, 0);
 }
 
