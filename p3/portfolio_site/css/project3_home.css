@@ -40,6 +40,7 @@ body {
   position: absolute;
   bottom: 10vh;
   right: 70vh;
+  /*left: 100vh;*/
   transform: skew(-32deg);
   transition: transform 0.3s linear;
 }
@@ -92,6 +93,7 @@ a:focus #pgram1 > #designertitle, a:active #pgram1 > #designertitle {
   z-index: 2;
   transition: transform 0.3s linear;
 }
+
 #organizertitle {
   font-size: 3em;
   position: absolute;
@@ -150,7 +152,7 @@ a:focus #pgram2 > #organizertitle, a:active #pgram2 > #organizertitle {
   z-index: 5;
   transition: transform 0.25s linear;
 }
-#text3 {
+#nametitle {
   font-size: 2em;
   position: absolute;
   top: 50%;
@@ -183,11 +185,106 @@ a:focus #pgram3, a:active #pgram3 {
 }
 
 /* Text when hovered over */
-a:hover #pgram3 > #text3 {
+a:hover #pgram3 > #nametitle {
   transform: scale(1.1) skew(-32deg);
 }
 
 /* Text when clicked on */
-a:focus #pgram3 > #text3, a:active #pgram3 > #text3 {
+a:focus #pgram3 > #nametitle, a:active #pgram3 > #nametitle {
   transform: scale(1.2) skew(-32deg);
+}
+
+/*----------------------------1400 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 1400px) {
+
+#designertitle {
+  font-size: 2em;
+  right: 65vh;
+}
+
+
+#organizertitle {
+  font-size: 2em;
+}
+
+#nametitle {
+  font-size: 1.75em;
+}
+
+}
+
+/*----------------------------1125 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 1125px) {
+
+#designertitle {
+  font-size: 2em;
+  right: 50vh;
+}
+
+
+#organizertitle {
+  font-size: 2em;
+}
+
+#nametitle {
+  font-size: 1.50em;
+}
+
+}
+
+/*----------------------------900 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 900px) {
+
+#designertitle {
+  font-size: 1.75em;
+  right: 40vh;
+}
+
+
+#organizertitle {
+  font-size: 1.75em;
+}
+
+#nametitle {
+  top: 48%;
+  font-size: 1.25em;
+}
+
+}
+
+/*----------------------------700 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 700px) {
+
+#designertitle {
+  font-size: 1.75em;
+  right: 25vh;
+}
+
+
+#organizertitle {
+  font-size: 1.75em;
+}
+
+#nametitle {
+  top: 48%;
+  left: 50%;
+  font-size: 1.15em;
+}
+
+}
+
+/*----------------------------700 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 575px) {
+
+#nametitle {
+  top: 35%;
+  left: 58%;
+  font-size: 1.15em;
+}
+
 }

@@ -38,7 +38,7 @@ a {
 }
 
 #resume_intro {
-  font-size: 0.8em;
+  font-size: 1em;
   color: #093C75;
   text-align: justify;
   display: inline-block;
@@ -73,4 +73,94 @@ a:hover #back {
 a:focus #back, a:active #back {
   /*color: #093C75;*/
   color: #0D5FB9;
+}
+
+/*----------------------------1700 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 1700px) {
+
+#pagetitle {
+  font-size: 3.5em;
+  top: 45.5vh;
+  width: 25vw;
+}
+
+#resume_intro {
+  font-size: 1em;
+  top: 58vh;
+  width: 25vw;
+}
+
+}
+
+/*----------------------------1375 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 1375px) {
+
+#pagetitle {
+  font-size: 3em;
+  top: 45.5vh;
+  width: 30vw;
+}
+
+#resume_intro {
+  font-size: 1em;
+  top: 58vh;
+  width: 30vw;
+}
+
+}
+
+/*----------------------------975 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 975px) {
+
+#pagetitle {
+  font-size: 2.5em;
+  top: 45.5vh;
+  width: 35vw;
+}
+
+#resume_intro {
+  font-size: 0.95em;
+  top: 58vh;
+  width: 35vw;
+}
+
+}
+
+/*----------------------------700 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 700px) {
+
+#pagetitle {
+  font-size: 2.25em;
+  top: 45.5vh;
+  width: 40vw;
+}
+
+#resume_intro {
+  font-size: 0.9em;
+  top: 58vh;
+  width: 40vw;
+}
+
+}
+
+/*----------------------------575 pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 575px) {
+
+#pagetitle {
+  font-size: 2.25em;
+  top: 45.5vh;
+  width: 45vw;
+}
+
+#resume_intro {
+  font-size: 0.9em;
+  top: 58vh;
+  width: 45vw;
+}
+
 }
