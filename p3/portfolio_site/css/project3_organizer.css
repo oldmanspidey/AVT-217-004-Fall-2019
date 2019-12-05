@@ -10,7 +10,6 @@ body {
   height: 100vh;
   max-width: 100vw;
   margin: 0;
-  /*overflow: hidden;*/
 }
 
 /* just removing text deorations real quick */
@@ -55,10 +54,6 @@ a {
 }
 
 /* Text of organizer experience */
-
-#org_exp_cont {
-
-}
 
 #organizer_experience {
   width: 60vw;
